@@ -3,7 +3,7 @@ A repository for some tools providing features that are external to Aivia, such 
 
 ### Macros about image montage, convenient image handling for figure preparation
 
-* [CreateMontageWithTime_2.0.ijm](/CreateMontageWithTime_2.0.ijm "Right-click > Save as to download file")
+* [CreateMontageWithTime_2.0.ijm](/CreateMontageWithTime_2.0.ijm "Right-click > Save Link As, to download file")
 
 To create montage of single channel 2D+T or 3D images and keep the 3rd dimension as a slider. This allows for navigation in the latter dimension, for quick review and for appropriate choice of montage to keep for a figure, for instance.
 The macro let you choose the layout and the images for each position, via a drop-down menu. 
