@@ -12,3 +12,6 @@ The macro let you choose the layout and the images for each position, via a drop
 <b>Important note:</b> Images should be opened and display (contrast, etc.) should be adjusted priorily to running the macro.
 
 [Demo video of CreateMontageWithTime_2.0.ijm](/DRVisionFiles/Videos/CreateMontageWithTime_2.0.ijm.mp4 "Demo video")
+
+---
+
