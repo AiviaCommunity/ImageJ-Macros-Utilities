@@ -1,6 +1,7 @@
 ## ImageJ-Macros-Utilities
 A repository for some tools providing features that are external to [Aivia](https://www.drvtechnologies.com/aivia), such as: complex image montage, LUT color mapping creation, etc.
 
+---
 ### Macros about image montage, convenient image handling for figure preparation
 
 * [CreateMontageWithTime_2.0.ijm](/CreateMontageWithTime_2.0.ijm "Right-click > Save Link As, to download file")
