@@ -2,7 +2,7 @@
 A repository for some tools providing features that are external to [Aivia](https://www.drvtechnologies.com/aivia), such as: complex image montage, LUT color mapping creation, etc.
 
 ---
-### Macros about image montage, convenient image handling for figure preparation
+### Macro about image montage with 2D+t or 3D datasets, e.g. for lab meeting presentations, etc.
 
 * [CreateMontageWithTime_2.0.ijm](/CreateMontageWithTime_2.0.ijm "Right-click > Save Link As, to download file")
 
@@ -14,9 +14,11 @@ The macro let you choose the layout and the images for each position, via a drop
 [Demo video of CreateMontageWithTime_2.0.ijm](/DRVisionFiles/Videos/CreateMontageWithTime_2.0.ijm.mp4 "Demo video")
 
 ---
+### Macro to export individual Fields-Of-View stored in a multi-image file (.lif, .nd2, .czi, ...)
 
 * [Export-as-individual-images_1.5.ijm](/Export-as-individual-images_1.5.ijm "Right-click > Save Link As, to download file")
 
-To export individual Fields-Of-View stored in a single file, such as .lif, .nd2, .czi, etc. The macro can process multiple files in the same folder (batch mode = yes) or only one file (batch mode = no). You can also export RGB merged images and/or max projections.
+The macro can process multiple files in the same folder (batch mode = yes) or only one file (batch mode = no). 
+You can also export RGB merged images and/or max projections.
 
 ---
