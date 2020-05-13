@@ -15,3 +15,8 @@ The macro let you choose the layout and the images for each position, via a drop
 
 ---
 
+* [Export-as-individual-images_1.5.ijm](/Export-as-individual-images_1.5.ijm "Right-click > Save Link As, to download file")
+
+To export individual Fields-Of-View stored in a single file, such as .lif, .nd2, .czi, etc. The macro can process multiple files in the same folder (batch mode = yes) or only one file (batch mode = no). You can also export RGB merged images and/or max projections.
+
+---
