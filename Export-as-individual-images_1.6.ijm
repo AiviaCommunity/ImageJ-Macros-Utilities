@@ -63,8 +63,8 @@ count = 0;
 
 for (i=0; i<Mylist.length; i++) {
 	// Setting output folder
-	outdir = Mypath;
-	if (indivfolder == "yes") outdir = outdir + replace(Mylist[i], ".", "_") + File.separator;		// TODO
+	outdir = Mypath + "converted" + File.separator;
+	if (indivfolder == "yes") outdir = Mypath + replace(Mylist[i], ".", "_") + File.separator;		// TODO
 	if (!File.exists(outdir)) {
 		File.makeDirectory(outdir);
 	}
