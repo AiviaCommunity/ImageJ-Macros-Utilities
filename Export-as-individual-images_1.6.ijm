@@ -25,7 +25,7 @@ yesno = newArray("no", "yes");
 ftypes = newArray("tif", "jpg", "ics (better compatibility with Aivia)");
 Dialog.create("Settings for all files");
 Dialog.addChoice("Batch process (multiple files in same folder)", yesno);
-Dialog.addString("File extension filter: (e.g. \[.tif\])\nLeave blank to disable", ".tif");
+Dialog.addString("File extension filter: (leave blank to disable)", ".tif");
 Dialog.addMessage("");
 Dialog.addChoice("For multi-channel images, save merge as RGB? ", yesno);
 Dialog.addChoice("For z-stack images, save maximum projection? ", yesno);
@@ -153,4 +153,3 @@ function SortFileList(path, filter) {		// Sort with endsWith
 	}
 	return Array.trim(OutAr, ind);
 }
-
