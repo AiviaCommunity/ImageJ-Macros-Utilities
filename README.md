@@ -18,7 +18,6 @@ The macro let you choose the layout and the images for each position, via a drop
 
 * [Export-as-individual-images_1.6.ijm](/Export-as-individual-images_1.6.ijm "Right-click > Save Link As, to download file")
 
-The macro can process multiple files in the same folder (batch mode = yes) or only one file (batch mode = no). 
-You can also export RGB merged images and/or max projections.
+The macro can process multiple files in the same folder (batch mode = yes) or only one file (batch mode = no). By default, all images embedded in the same input file will be output in an individual subfolder, but you have an option to export all in the same folder. You can also export RGB merged images and/or max projections.
 
 ---
