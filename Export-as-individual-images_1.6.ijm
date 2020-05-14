@@ -129,7 +129,7 @@ for (i=0; i<Mylist.length; i++) {
 			
 			if (ftyp=="tif") saveAs("Tiff", outdir + t + ".tif");
 			if (ftyp=="jpg") saveAs("Jpeg", outdir + t + ".jpg");
-			if (ftyp=="ics (better compatibility with Imaris)") run("Bio-Formats Exporter", "save=["+ outdir + t + ".ids]");
+			if (ftyp=="ics (better compatibility with Imaris)") run("Bio-Formats Exporter", "save=["+ outdir + t + ".ics]");
 			
 			run("Close All");
 		}
