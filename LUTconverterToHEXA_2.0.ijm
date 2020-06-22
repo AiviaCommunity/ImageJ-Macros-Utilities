@@ -67,6 +67,8 @@ for (n=0; n<nLev; n++) {
     print("["+na+"]", prefix + gradCol[n] +"\n");
 }
 
+selectWindow(na);
+
 // --- functions -----------------------------
 
 function padMe(txt, nb) {
