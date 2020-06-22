@@ -21,3 +21,12 @@ The macro let you choose the layout and the images for each position, via a drop
 The macro can process multiple files in the same folder (batch mode = yes) or only one file (batch mode = no). By default, all images embedded in the same input file will be output in an individual subfolder, but you have an option to export all in the same folder. You can also export RGB merged images and/or max projections.
 
 ---
+### Macro to create a custom LUT color mapping for Aivia
+
+* [LUTconverterToHEXA_2.0.ijm](/LUTconverterToHEXA_2.0.ijm "Right-click > Save Link As, to download file")
+
+Uses an image in ImageJ or Fiji (gradient of colors) to generate a custom LUT coloring compatible with Aivia / Aivia Community, saved as a **text file**.
+Important: input LUT image is expected to have an horizontal gradient. Final color coding is done on 256 levels as a maximum.
+Example of use: in ImageJ, use the menu "Image > Color > Display LUTs" and crop the one you want to generate. Then run the macro...
+
+---
