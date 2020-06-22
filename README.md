@@ -27,6 +27,6 @@ The macro can process multiple files in the same folder (batch mode = yes) or on
 
 Uses an image in ImageJ or Fiji (gradient of colors) to generate a custom LUT coloring compatible with Aivia / Aivia Community, saved as a **text file**.
 Important: input LUT image is expected to have an horizontal gradient. Final color coding is done on 256 levels as a maximum.
-Example of use: in ImageJ, use the menu "Image > Color > Display LUTs" and crop the one you want to generate. Then run the macro...
+Example of use: in ImageJ, use the menu "Image > Color > Display LUTs" and crop the one you want to generate. Then run the macro and save window as a text file. In Aivia, right-click on the channel of interest > Advanced Coloring > Load Coloring.
 
 ---
