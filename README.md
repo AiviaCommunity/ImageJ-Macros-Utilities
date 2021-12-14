@@ -30,6 +30,7 @@ Important: input LUT image is expected to have an horizontal gradient. Final col
 Example of use: in ImageJ, use the menu "Image > Color > Display LUTs" and crop the one you want to generate. Then run the macro and save window as a text file (File > Save As > Text). In Aivia, right-click on the channel of interest > Advanced Coloring > Load Coloring.
 
 * [Fiji-to-Aivia-LUT-converter_2.1.ijm](/Fiji-to-Aivia-LUT-converter_2.1.ijm "Right-click > Save Link As, to download file")
+
 Same as above but uses NeuroCyto LUTs list as suggested LUTs. User selects it from a stack (easier than version above).
 
 ---
